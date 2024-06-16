@@ -31,8 +31,8 @@ set -e
 # ------------------ Variables ----------------- #
 
 # Versioning
-export GITHUB_SOURCE=${GITHUB_SOURCE:-master}
-export SCRIPT_RELEASE=${SCRIPT_RELEASE:-canary}
+export GITHUB_SOURCE=${GITHUB_SOURCE:}
+export SCRIPT_RELEASE=${SCRIPT_RELEASE:}
 
 # Pterodactyl versions
 export PTERODACTYL_PANEL_VERSION=""
