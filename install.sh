@@ -28,7 +28,7 @@ set -e
 #                                                                                    #
 ######################################################################################
 
-export GITHUB_SOURCE=""
+export GITHUB_SOURCE="master"
 export SCRIPT_RELEASE=""
 export GITHUB_BASE_URL="https://raw.githubusercontent.com/BoghosDavtyan/pterodactyl-installer"
 
