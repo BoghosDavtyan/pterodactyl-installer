@@ -528,6 +528,7 @@ esac
 
 case "$OS" in
 linuxmint)
+  [ "$OS_VER_MAJOR" == "21" ] && SUPPORTED=true
   [ "$OS_VER_MAJOR" == "21.3" ] && SUPPORTED=true
   export DEBIAN_FRONTEND=noninteractive
   ;;
