@@ -21,7 +21,7 @@ Read more about [Pterodactyl](https://pterodactyl.io/) here. This script is not 
 
 ## Help and support
 
-For help and support regarding the script itself and **not the official Pterodactyl project**, you can join the [Discord Chat](https://pterodactyl-installer.se/discord).
+For help and support regarding the script itlf and **not the official Pterodactyl project**, you can join the [Discord Chat](https://pterodactyl-installer.se/discord).
 
 ## Supported installations
 
@@ -56,7 +56,7 @@ _\* Indicates an operating system and release that previously was supported by t
 To use the installation scripts, simply run this command as root. The script will ask you whether you would like to install just the panel, just Wings or both.
 
 ```bash
-bash <(curl -s https://pterodactyl-installer.se)
+bash <(curl -s https://raw.githubusercontent.com/BoghosDavtyan/pterodactyl-installer/master/install.sh)
 ```
 
 _Note: On some systems, it's required to be already logged in as root before executing the one-line command (where `sudo` is in front of the command does not work)._
